@@ -29,4 +29,13 @@ sudo systemctl daemon-reload
 ```sh
 sudo systemctl start mydaemon.service
 ```
+
 This will start the service, and it will continue running even after you log out of the terminal.
+
+## 4. To check the list of IP addresses from the ARP and status of daemon:
+
+```sh
+sudo systemctl status mydaemon.service
+```
+
+### Also could use crontab or redirect (>>) the output to .log file!
